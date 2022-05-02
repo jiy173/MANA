@@ -44,7 +44,7 @@ where "config" sets the training configuration file path.
 ## Reference
 If you find our work useful, please cite our paper:
 ````
-@InProceedings{MANA,
+@InProceedings{ MANA,
   author       = "Jiyang Yu and Jingen Liu and Liefeng Bo and Tao Mei",
   title        = "Memory-Augmented Non-Local Attention for Video Super-Resolution",
   booktitle    = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
