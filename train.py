@@ -45,8 +45,8 @@ dataloader = DataLoader(dataset=train_dataset,
 
 
 count = 0
-stage1=90000
-stage2=120000
+stage1=config['stage1']
+stage2=config['stage2']
 for epoch in range(0, config['epoch']):
     with tqdm(dataloader, desc="Training MANA") as tepoch:
         for inp, gt in tepoch:
