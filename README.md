@@ -15,9 +15,9 @@ The folder contains 2 zip files:
 - Parkour_Dataset.zip holds the 14 Parkour videos used in our main paper.
 - Supplementary_Dataset.zip holds the 11 real-world videos shown in the Fig.1 of the supplementary material.
 
-##Training
+## Training
 
-###Training Data Preparation
+### Training Data Preparation
 
 We use [Vimeo90K](http://toflow.csail.mit.edu/) dataset to train our network. In this repository, you can find a script named [prepare_data.py](https://github.com/jiy173/MANA/blob/main/prepare_data.py) which organizes Vimeo90K into an [hdf5](https://www.hdfgroup.org/solutions/hdf5/) file used in the training.
 
