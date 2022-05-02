@@ -4,7 +4,7 @@
 ## Introduction
 This repository contains the official implementation of "Memory-Augmented Non-Local Attention for Video Super-Resolution" in CVPR 2022.<br>
 
-Demo Video:<br>
+Demo Video (Watch in YouTube):<br>
 [![Demo Video](thumbnail.png)](https://www.youtube.com/watch?v=L8JKM9N_ig0)
 <br>
 
