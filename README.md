@@ -2,10 +2,10 @@
 
 
 ## Introduction
-This repository contains the official implementation of "Memory-Augmented Non-Local Attention for Video Super-Resolution" in CVPR 2022. The code will be released soon.
+This repository contains the official implementation of "Memory-Augmented Non-Local Attention for Video Super-Resolution" in CVPR 2022. 
 
 ## Updates
-- 5/1/2022: uploaded data preparation code and training code
+- 5/1/2022: uploaded data preparation code and training code. Test code will be uploaded soon.
 
 ## Dataset
 The Parkour dataset and the videos shown in the supplementary material can be downloaded at:
