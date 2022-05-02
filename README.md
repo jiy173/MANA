@@ -2,7 +2,8 @@
 
 
 ## Introduction
-This repository contains the official implementation of "Memory-Augmented Non-Local Attention for Video Super-Resolution" in CVPR 2022. 
+This repository contains the official implementation of "Memory-Augmented Non-Local Attention for Video Super-Resolution" in CVPR 2022.
+[![Demo Video](https://img.youtube.com/vi/L8JKM9N_ig0/0.jpg)](https://www.youtube.com/watch?v=L8JKM9N_ig0)
 
 ## Updates
 - 5/1/2022: uploaded data preparation code and training code. Test code will be uploaded soon.
