@@ -1,0 +1,31 @@
+#model settings
+in_channels: 128                           #number of channels in residual blocks
+width: 64                                  #width of input video/frame
+height: 64                                 #height of input video/frame
+encoder_nblocks: 5                         #number of residual blocks in the encoder
+decoder_nblocks: 40                        #number of residual blocks in the decoder
+
+#dataset settings
+dataset_path: vimeo90k_dataset.h5          #dataset path
+patch_size: 64                             #patch size for training, should be the same as width/height above
+num_workers: 1                             #number of threads in the dataloader
+
+
+#training settings
+device: !!str 0                            #GPU ids used for training
+batchsize: 16                              #batchsize
+checkpoint_folder: checkpt/                #the folder to save checkpoint
+checkpoint_name: checkpt.pt                #filename of checkpoint
+hot_start: 0                               #0 for training from scratch, 1 for resume from a checkpoint
+hot_start_checkpt: checkpt/checkpt.pt      #checkpoint used to resume training, if hot_start=0, this is ignored
+epoch: 10000                               #number of training epochs, set to a large number and manually stop training if needed
+stage1: 90000                              #number of iterations for stage 1 in our paper, don't change if not sure what it is
+stage2: 120000                             #number of iterations for stage 2 in our paper, don't change if not sure what it is
+N_save_checkpt: 1000                       #save checkpoint every N_save_checkpt iterations
+save_samples: 1                            #set 1 to save sample images every N_save_checkpt iterations, set 0 otherwise
+
+#logging settings
+use_wandb: 0                               #if you use wandb ( https://wandb.ai/ ), you can set this to 1 and input your project name and username below
+project: your_project_name                 #wandb project name
+entity: your_wandb_username                #wandb user name
+run_name: your_run_name                    #the name of a run
