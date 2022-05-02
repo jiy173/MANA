@@ -23,4 +23,5 @@ To do this, simply run:<br>
 `
 python prepare_data.py --dataset vimeo90k/ --output vimeo90k_dataset.h5
 `
+<br>
 where "dataset" is the Vimeo90K dataset path containing both "sequences/" and "seq_trainlist.txt"; "output" sets the output hdf5 file path.
