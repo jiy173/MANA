@@ -19,9 +19,8 @@ The folder contains 2 zip files:
 ###Training Data Preparation
 We use [Vimeo90K](http://toflow.csail.mit.edu/) dataset to train our network. In this repository, you can find a script named [prepare_data.py](https://github.com/jiy173/MANA/blob/main/prepare_data.py) which organizes Vimeo90K into an [hdf5](https://www.hdfgroup.org/solutions/hdf5/) file used in the training.
 
-To do this, simply run:<br>
-`
+To do this, simply run:
+```python
 python prepare_data.py --dataset vimeo90k/ --output vimeo90k_dataset.h5
-`
-<br>
+```
 where "dataset" is the Vimeo90K dataset path containing both "sequences/" and "seq_trainlist.txt"; "output" sets the output hdf5 file path.
